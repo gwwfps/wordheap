@@ -7,7 +7,10 @@ export function composeMappers(mappers) {
       if (!Array.isArray(txs)) {
         txs = [txs];
       }
-      return txs.map(tx => Array.isArray(tx) ? tx : [tx]);
+      if (txs.length && !Array.isArray(txs[0])) {
+        txs = [txs];
+      }
+      return txs;
     }
     return [];
   };

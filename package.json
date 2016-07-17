@@ -10,9 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "deku": "^2.0.0-rc16",
-    "lokijs": "^1.4.1",
-    "pouchdb": "^5.4.4",
-    "pouchdb-find": "^0.10.2"
+    "form-serialize": "^0.7.1",
+    "lokijs": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
