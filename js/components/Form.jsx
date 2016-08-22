@@ -12,7 +12,7 @@ function wrapSubmit(onSubmit) {
 export default {
   render({ children, props }) {
     return (
-      <form onSubmit={wrapSubmit(props.onSubmit)}>{children}</form>
+      <form class="form" onSubmit={wrapSubmit(props.onSubmit)}>{children}</form>
     );
   }
 }
