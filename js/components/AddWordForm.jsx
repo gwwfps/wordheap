@@ -11,6 +11,8 @@ export default {
     return (
       <Form onSubmit={addItem(dispatch)}>
         <FormInput name="word" label="Word" required={true} />
+        <FormInput name="meaning" label="Meaning" required={true} />
+        <FormInput name="notes" label="Notes" />
         <FormSubmit />
       </Form>
     );

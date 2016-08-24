@@ -9,6 +9,9 @@ export default {
       <table>
         <thead>
           <th>Word</th>
+          <th>Meaning</th>
+          <th>Notes</th>
+          <th>Dictionary</th>
           <th></th>
         </thead>
         <tbody>
